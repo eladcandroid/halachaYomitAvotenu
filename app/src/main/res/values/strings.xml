@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">הלכה יומית דרכי אבותינו</string>
+
+
+    <string name="title_section1">הלכה יומית</string>
+    <string name="title_section2">הלכות</string>
+    <string name="title_section3">שלח שאלה</string>
+
+    <string name="action_refresh">רענן</string>
+    <string name="action_about">אודות</string>
+    <string name="action_contact">שלח משוב</string>
+
+    <string name="loading_halacha_yomit">טוען את ההלכה היומית...</string>
+    <string name="loading_halachot">טוען את ההלכות...</string>
+
+    <string name="halachayomit_json_url">http://www.mogo.co.il/api/halachayomit/get_halachot.php?type=1</string>
+    <string name="halachot_json_url">http://www.mogo.co.il/api/halachayomit/get_halachot.php?type=2</string>
+
+    <string name="title_activity_about">אודות</string>
+    <string name="about_zivug">לרפואת גבריאל בן תמו</string>
+
+    <string name="about_content">
+    \nהאפליקציה נבנתה ע\"י: אלעד כהן</string>
+
+    <string name="title_activity_form">שלח משוב</string>
+    <string name="feedbacktitle">הכנס את פרטי המשוב</string>
+    <string name="feedbackname">שם</string>
+    <string name="feedbackemail">אימייל</string>
+    <string name="feedbackbody">פרטים...</string>
+    <string name="feedbackresponse">האם אתה מעוניין בתגובה באימייל?</string>
+    <string name="feedbackbutton">שלח משוב</string>
+    <string name="feedbacktype">בחר את סוג הפנייה</string>
+    <string name="feedbacktype1">דיווח באג</string>
+    <string name="feedbacktype2">הצעת ייעול</string>
+    <string name="feedbacktype3">שאלה</string>
+    <string name="feedbacktype4">אחר</string>
+
+    <string name="feedbackmessagebody_format">סוג הפנייה: %1$s\n\n %2$s\n\n %3$s (%4$s)</string>
+    <string name="feedbackmessagebody_responseyes">מבקש תגובה</string>
+    <string name="feedbackmessagebody_responseno">לא דורש תגובה</string>
+    <string name="feedbackmessagesubject_format">משוב לאפליקציה (%1$s)</string>
+    <string name="empty_list_error">לא נמצאו הלכות. בדוק חיבור לאינטרנט ונסה שנית</string>
+    <string name="tvShutName">שם</string>
+    <string name="tvShutEmail">אימייל לתשובה</string>
+    <string name="tvShutQuestion">שאלה</string>
+    <string name="btnShutSend">שלח שאלה</string>
+
+    <string name="msg_shut_sent">השאלה נשלחה בהצלחה</string>
+    <string name="err_shut_email">חובה להכניס אימייל</string>
+    <!--<string name="err_shut_name">חובה להכניס שם</string>-->
+    <string name="err_shut_question">חובה להכניס שאלה</string>
+    <string name="err_shut_email_struct">אימייל לא תקין</string>
+    <string name="msg_shut_sent_err">השאלה לא נשלחה. נא לתקן את אחד השדות</string>
+
+</resources>

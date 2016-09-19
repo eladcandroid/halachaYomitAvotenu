@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle"   tools:ignore="NewApi">@style/MyActionBar</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <!--<item name="android:actionBarTabBarStyle"   tools:ignore="NewApi">@style/MyActionBarTabBarStyle</item>-->
+        <!--<item name="actionBarTabBarStyle">@style/MyActionBarTabBarStyle</item>-->
+        <item name="android:actionBarTabStyle"   tools:ignore="NewApi">@style/MyActionBarTabStyle</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabStyle</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="android:background"  tools:ignore="NewApi">@color/actionBarBg</item>
+    <item name="background">@color/actionBarBg</item>
+    <item name="android:backgroundStacked"  tools:ignore="NewApi">@color/actionBarTabBarBg</item>
+    <item name="backgroundStacked">@color/actionBarTabBarBg</item>
+    <item name="android:backgroundSplit" tools:ignore="NewApi">@color/actionBarBg</item>
+    <item name="backgroundSplit">@color/actionBarBg</item>
+</style>
+
+
+
+<style name="MyActionBarTabBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+    <item name="android:background">@color/actionBarTabBarBg</item>
+</style>
+
+<style name="MyActionBarTabStyle" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+    <item name="android:background">@drawable/tab_indicator_ab_actionbar</item>
+</style>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionBarBg">#fff6f398</color>
+    <color name="actionBarTabBarBg">#ffffcf47</color>
+    <color name="actionBarTabBg">#fff6f398</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_highlight">#ff9ecfbf</color>
+    <color name="white">#FFFFFF</color>
+</resources>
